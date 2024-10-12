@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.gradient-color {
+	background: linear-gradient(-45deg, #FFC8C8, #FF9999);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    width: 100%;
+    margin: 0;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1, h3 {
+    font-family: "Updock", cursive;
+    font-style: bold;
+    color: #444F5A;
+    text-shadow: 1px 2px white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2, h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hi2 {
+    margin-top: -80px
+}
+
+.hi3 {
+    background-image: url(./assets/images/bgtop.png);
+    background-repeat: repeat-x;
+    height: 190px;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 90%;
+}
+
+.main1 > img {
+    border-radius: 50%;
+    border: 3px solid #FF9999;
+    margin-top: 10%;
+    margin-bottom: -10%;
+}
+
+.main3 {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 1.2fr 0.4fr;
+    width: 580px;
+    gap: 0;
+    align-items: center;
+    margin-bottom: -5rem;
+}
+
+/* RIGA 1 */
+
+.grid1 {
+    grid-column: span 2;
+}
+
+/* RIGA 2 */
+
+.grid2 {
+    height: 410px;
+}
+
+.grid3 {
+    height: 410px;
+}
+
+/* RIGA 3 */
+
+.grid4 {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.main4 {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 5rem;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    font-size: 1.8rem;
+    text-align: center;
+    background-color:#FF9999;
+    color:#444F5A;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color:#444F5A;
+    color:#FF9999;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.footer {
+    text-align: center;
+    margin-bottom: -2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.foot-link {
+    color:#444F5A;
+    text-shadow: 1px 2px white;
+    padding: 20px;
+}
+
+.foot-link:hover {
+    text-transform: uppercase;
+}
